@@ -1,9 +1,11 @@
 body {
   background-color: rgb(245, 245, 245);
+  padding: 0;
+  margin: 0;
 }
 .header {
-  margin-top: -1vh;
-  padding-top: 2vh;
+  display: flex;
+  justify-content: flex-start;
   height: 10vh;
   width: 100%;
   border-bottom: solid;
@@ -12,40 +14,44 @@ body {
   background-color: white;
 }
 .instaLogo {
-  margin-left: 25vh;
-  margin-top: -3vh;
-}
-.insta {
-  margin-left: 50px;
-  font-size: 1.8em;
+  width: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 .fa.fa-camera-retro {
-  position: absolute;
-  font-size: 2em;
-  margin-left: -10px;
+  font-size: 46px;
 }
-.insta:before {
-  position: absolute;
-  content: '';
-  height: 32px;
-  width: 1px;
-  background-color: black;
-  display: block;
-  margin-left: -10px;
+
+.insta {
+  font-size: 1.8em;
+  width: 50%;
+  margin-left: 36px;
+}
+
+.input{
+  width: 40.5%;
+  display: flex;
+  justify-content: flex-end;
 }
 input {
-  position: absolute;
-  height: 3.5vh;
+  width: 29%;
+  height: 31%;
+  margin-top: 8px;
+  border-radius: 15px;
+  text-align: center;
+}
+.contenairIcon {
   width: 15%;
-  margin-left: 41%;
-  margin-top: -9vh;
+  display: flex;
+  justify-content: center;
 }
 .icons {
-  position: absolute;
-  margin-left: 75%;
-  margin-top: -8.5vh;
   font-size: 1.5em;
   word-spacing: 4vh;
+  width: 40.5%;
+  justify-content: center;
+  display: flex;
 }
 
 
@@ -119,8 +125,8 @@ ul li {
 /*IMAGE*/
 .contenair {
   margin-top: 8vh;
-	width: 75%;
-	height: 100%;
+  width: 75%;
+  height: 100%;
   margin-left: 12%;
 }
 .img {
