@@ -109,4 +109,34 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+/*IMAGE*/
+.contenair {
+  margin-top: 8vh;
+	width: 75%;
+	height: 100%;
+  margin-left: 12%;
+}
+.img {
+	width: 100%;
+	height: 60%;
+	display: flex;
+	justify-content: space-around;
+  margin-top: 5vh;
+}
+
+.o {
+	height: 42vh;
+	width: 30%;
+  overflow: hidden;
+}
+img {
+  height: auto;
+  width: 150%;
 }
