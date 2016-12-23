@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+.header {
+  margin-top: -1vh;
+  padding-top: 2vh;
+  height: 10vh;
+  width: 100%;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: rgb(200,200,200);
+  background-color: white;
+}
+.instaLogo {
+  margin-left: 25vh;
+  margin-top: -3vh;
+}
+.insta {
+  margin-left: 50px;
+  font-size: 1.8em;
+}
+.fa.fa-camera-retro {
+  position: absolute;
+  font-size: 2em;
+  margin-left: -10px;
+}
+.insta:before {
+  position: absolute;
+  content: '';
+  height: 32px;
+  width: 1px;
+  background-color: black;
+  display: block;
+  margin-left: -10px;
+}
+input {
+  position: absolute;
+  height: 3.5vh;
+  width: 15%;
+  margin-left: 41%;
+  margin-top: -9vh;
+}
+.icons {
+  position: absolute;
+  margin-left: 75%;
+  margin-top: -8.5vh;
+  font-size: 1.5em;
+  word-spacing: 4vh;
+}
+
+
+.avatar {
+  height: 25vh;
+  width: 13%;
+  background-image: url(perfil.jpg);
+  background-size: contain;
+  background-position: center;
+  border-radius: 50%;
+  margin-left: 17%;
+  margin-top: 10vh;
+}
+.pseudo {
+  position: absolute;
+  margin-left: 38%;
+  margin-top: -26vh;
+  font-size: 2em;
+}
+ul {
+  list-style: none;
+  position: absolute;
+  margin-left: 31%;
+  margin-top: -19vh;
+  font-size: 1.1em;
+}
+ul li {
+  display: table-cell; /* affichage en ligne */
+  padding-left: 7vh;
+}
+.para {
+  position: absolute;
+  margin-left: 38%;
+  margin-top: -13vh;
+  font-size: 1.1em;
+}
+.folow {
+  position: absolute;
+  margin-left: 56%;
+  margin-top: -26vh;
+  height: 33px;
+  width: 8%;
+  background-color: #70C050;
+  font-size: 1em;
+  color: white;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sideFolow {
+  position: absolute;
+  margin-left: 64.3%;
+  margin-top: -26vh;
+  height: 33px;
+  width: 3%;
+  background-color: #70C050;
+  font-size: 1em;
+  color: white;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
